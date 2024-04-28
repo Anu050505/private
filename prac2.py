@@ -13,4 +13,6 @@ print(fruit[:4])
 print(fruit[1:5])    #includes 1 but not 5
 print(fruit[1:])
 print(fruit[-2:-1]) #includes -2 but not -1
-print(fruit[-1])
+print(fruit[-1])   #last value of the variable
+
+

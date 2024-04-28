@@ -1,3 +1,4 @@
+
 #def average(a,b):
     #print('the average is', (a+b)/2)
 
@@ -5,9 +6,7 @@
 
 
 
-
-
-#LIST-----------------------------------------------------------
+#LIST-----------------------------------------------------------------------
 
 '''list=[1,2,3,4,5,6,7,8]
 
@@ -45,11 +44,11 @@ print(list1[0:7:3])'''
 
 
 
-lst=[i for i in range(101)]   # basically from 0 to 100 is stored in i and lst=i
-print(lst)
+#lst=[i for i in range(101)]   # basically from 0 to 100 is stored in i and lst=i
+#print(lst)
 
-lst=[i for i in range(101) if i%2==0]
-print(lst)
+#lst=[i for i in range(101) if i%2==0]    #for the lst element just print if they are multiple of 2
+#print(lst)
 
 
 

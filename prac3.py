@@ -23,7 +23,7 @@ name4='welcome to the program. This is the best. The program is good'
 print(name4.endswith('me',0 ,7))   # tells that from idx [0:7] if variable ends with 'me'
 print(name4.find('the'))  # ".find" asks to tell the idx when the word first appeared
 print(name4.islower())    # ".islower" asks whether the variable has all small letter or not (True/False)
-print(name4.istitle())
+print(name4.istitle())    # ".istitle" asks whether the first word ONLY of the variable is caps (T/F)
 
 # "\n" shifts everythiing to a new line
 

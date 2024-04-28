@@ -8,10 +8,10 @@ no bye out'''                       #triple quotation prints everthing even if i
 print(response) 
 print(len(response))
 print(response[0])
-print(response[-1])
+print(response[-1])           #-1 is the last index of any variable, 0 is first index of any variable
 
 for character in response:
-    print(character)
+    print(character)             #prints everything one by one including the spaces and everything
 
 
 
