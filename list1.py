@@ -1,3 +1,6 @@
+# for list (you dont have to assign a new variable everytime you use the functions)
+# for tuple (you have to assign a new variable before printing)
+
 
 '''list=[21,2,13,54,44,5,6,27,18]
 print(list)
@@ -23,11 +26,13 @@ print(list)'''
 
 l=[1,2,3,4,5,6,7,8]
 m=[100,190,180]
-l.extend(m)
+l.extend(m)                 # extends the original list by adding the elements that are inside the ()
 print(l)
 
+print(l+m)            # same as extending/adding
 
-
+del l[5]              # deletes the index of that list
+print(l)
 
 
 

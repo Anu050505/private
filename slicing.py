@@ -8,7 +8,7 @@ print('Names are usually', len1, 'words long')
 
 
 fruit='Mango'
-print(fruit[:4])
+print(fruit[0:4])
 print(fruit[:4])
 print(fruit[1:5])    #includes 1 but not 5
 print(fruit[1:])

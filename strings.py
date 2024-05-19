@@ -1,5 +1,6 @@
-#strings are immutable(does not change the variable)
+#strings are immutable(does not change the original)
  #functions will always have "()" 
+
 
 name='Anushka bist'
 print(name.upper())   # ".upper" means everything capital
@@ -28,5 +29,14 @@ print(name4.istitle())    # ".istitle" asks whether the first word ONLY of the v
 # "\n" shifts everythiing to a new line
 
 
+str='AnushkA.'
+str_low=0
+str_high=0
+for alp in str:
+    if alp.islower()==True:    # .islower/isupper checks whether the string value is in caps or not
+        str_low+=1
+    if alp.isupper()==True:
+        str_high+=1
+print(str_low, str_high)
 
 
