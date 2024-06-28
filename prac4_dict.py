@@ -59,7 +59,7 @@ if __name__ == "__main__":
 # Sorting the Keys and Values Alphabetically Using the Key
 
 # function calling
-'''def dictionairy():
+def dictionairy():
  
     # Declaring the hash function
     key_value = {}
@@ -92,7 +92,7 @@ def main():
  
 # main function calling
 if __name__ == "__main__":
-    main()'''
+    main()
 
 
 

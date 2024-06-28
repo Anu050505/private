@@ -78,7 +78,7 @@ print(Dict)
 
 
 
-Employee = {"Name": "Dev", "Age": 20, "salary":45000,"Company":"WIPRO"}         
+Employee = {"Name": "Dev", "Age": 20, "salary":45000, "Company":"WIPRO"}         
 print(type(Employee))        
 print("printing Employee data .... ")        
 print(Employee)        
